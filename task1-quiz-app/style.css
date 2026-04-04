@@ -1,26 +1,40 @@
 body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #4facfe, #00f2fe);
+    font-family: Arial;
+    background: linear-gradient(to right, #667eea, #764ba2);
     text-align: center;
 }
 
 .quiz-box {
     background: white;
-    width: 350px;
-    margin: 100px auto;
+    width: 400px;
+    margin: 80px auto;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px gray;
 }
 
 button {
     display: block;
     margin: 10px auto;
     padding: 10px;
-    width: 80%;
+    width: 90%;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#nextBtn {
+    background: #28a745;
+    color: white;
+    display: none;
+}
+
+#feedback {
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 button:hover {
