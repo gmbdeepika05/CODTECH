@@ -1,46 +1,100 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     text-align: center;
-    background: linear-gradient(135deg, #667eea, #764ba2);
-    color: white;
     margin: 0;
-}
-
-/* Title */
-h1 {
-    margin-top: 20px;
-}
-
-/* Course cards */
-.course {
-    background: white;
-    color: black;
-    margin: 20px auto;
-    padding: 15px;
-    width: 300px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-}
-
-/* Buttons & links */
-a, button {
-    display: inline-block;
-    padding: 10px 15px;
-    margin: 10px;
-    background: #ff7eb3;
     color: white;
+
+    /* Premium Background */
+    background:
+        linear-gradient(rgba(20,20,40,0.7), rgba(20,20,40,0.7)),
+        url("https://images.unsplash.com/photo-1519389950473-47ba0277781c");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Heading */
+h1 {
+    padding: 20px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    text-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+/* Glass Card UI */
+.course {
+    background: rgba(255,255,255,0.15);
+    margin: 20px auto;
+    padding: 20px;
+    width: 320px;
+    border-radius: 15px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+/* Buttons & Links */
+a, button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    border-radius: 20px;
     border: none;
-    border-radius: 5px;
     text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* YouTube Button */
+a {
+    background: #ff0000;
+    color: white;
+}
+
+a:hover {
+    background: #cc0000;
+    transform: scale(1.05);
+}
+
+/* Complete Button */
+button {
+    background: #00c853;
+    color: white;
     cursor: pointer;
 }
 
-/* Hover */
-a:hover, button:hover {
-    background: #ff4d94;
+button:hover {
+    background: #00a844;
+    transform: scale(1.05);
 }
 
-/* Video */
-iframe {
+/* Quiz Buttons */
+.course button {
+    background: #2962ff;
+}
+
+.course button:hover {
+    background: #0039cb;
+}
+
+/* Input & Textarea */
+input, textarea {
+    width: 80%;
+    padding: 10px;
     border-radius: 10px;
+    border: none;
+    margin: 10px;
+    font-size: 14px;
+}
+
+/* Progress Text */
+p {
+    font-size: 14px;
+}
+
+/* Divider */
+hr {
+    width: 80%;
+    border: 1px solid rgba(255,255,255,0.3);
 }
