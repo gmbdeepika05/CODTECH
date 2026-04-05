@@ -40,7 +40,7 @@ I am passionate about building interactive and user-friendly web applications.
 - Progress tracking system (% based)
 - Quiz and feedback system
 
-🔗 Live: https:/gmbdeepika05.github.io/codtech/task4-elearning/
+🔗 Live: https://gmbdeepika05.github.io/codtech/task4-elearning/
 
 
 ## 🛠️ Technologies Used
