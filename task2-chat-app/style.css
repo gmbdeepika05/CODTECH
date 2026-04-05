@@ -1,0 +1,110 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("https://images.unsplash.com/photo-1523966211575-eb4a01e7dd51") no-repeat center center/cover;
+}
+
+/* Container */
+.chat-container {
+    width: 360px;
+    margin: 40px auto;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+
+/* Header */
+.chat-container h2 {
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background: #2c3e50;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* Chat box */
+#chatBox {
+    height: 350px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+/* Message bubbles */
+.message {
+    padding: 10px 12px;
+    margin: 6px;
+    border-radius: 10px;
+    max-width: 70%;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* My messages */
+.self {
+    background: #4CAF50;
+    color: white;
+    margin-left: auto;
+    text-align: right;
+}
+
+/* Others */
+.other {
+    background: #ffffff;
+    color: #333;
+}
+
+/* Name */
+.message strong {
+    font-size: 12px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 3px;
+}
+
+/* Message text */
+.message span {
+    font-size: 14px;
+}
+
+/* Time */
+.message small {
+    font-size: 10px;
+    opacity: 0.6;
+    display: block;
+    margin-top: 3px;
+}
+
+/* Inputs */
+input {
+    width: 85%;
+    margin: 5px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    display: block;
+    font-size: 14px;
+}
+
+/* Button */
+button {
+    width: 85%;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #2c3e50;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1a252f;
+}
